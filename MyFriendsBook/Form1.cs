@@ -329,6 +329,7 @@ namespace MyFriendsBook
             } catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                connection.Close();
             }
 
         }
