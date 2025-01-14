@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\_github_desktop\\MyFriendsBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F255A8DC-A65D-4168-95A0-BAF6CE7E1320}|MyFriendsBook\\MyFriendsBook.csproj|c:\\_github_desktop\\myfriendsbook\\myfriendsbook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F255A8DC-A65D-4168-95A0-BAF6CE7E1320}|MyFriendsBook\\MyFriendsBook.csproj|solutionrelative:myfriendsbook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F255A8DC-A65D-4168-95A0-BAF6CE7E1320}|MyFriendsBook\\MyFriendsBook.csproj|C:\\_github_desktop\\MyFriendsBook\\myfriendsbook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F255A8DC-A65D-4168-95A0-BAF6CE7E1320}|MyFriendsBook\\MyFriendsBook.csproj|solutionrelative:myfriendsbook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\_github_desktop\\MyFriendsBook\\MyFriendsBook\\Form1.cs",
+              "RelativeDocumentMoniker": "MyFriendsBook\\Form1.cs",
+              "ToolTip": "C:\\_github_desktop\\MyFriendsBook\\MyFriendsBook\\Form1.cs",
+              "RelativeToolTip": "MyFriendsBook\\Form1.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAswMcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:44:02.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\_github_desktop\\MyFriendsBook\\MyFriendsBook\\Form1.cs",
+              "RelativeDocumentMoniker": "MyFriendsBook\\Form1.cs",
+              "ToolTip": "C:\\_github_desktop\\MyFriendsBook\\MyFriendsBook\\Form1.cs [Design]",
+              "RelativeToolTip": "MyFriendsBook\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:14:34.14Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

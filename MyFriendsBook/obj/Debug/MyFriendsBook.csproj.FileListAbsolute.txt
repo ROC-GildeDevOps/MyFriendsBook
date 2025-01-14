@@ -1,0 +1,10 @@
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\bin\Debug\MyFriendsBook.exe.config
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\bin\Debug\MyFriendsBook.exe
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\bin\Debug\MyFriendsBook.pdb
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.csproj.AssemblyReference.cache
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.Form1.resources
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.Properties.Resources.resources
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.csproj.GenerateResource.cache
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.csproj.CoreCompileInputs.cache
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.exe
+C:\_github_desktop\MyFriendsBook\MyFriendsBook\obj\Debug\MyFriendsBook.pdb
