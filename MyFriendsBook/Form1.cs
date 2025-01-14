@@ -256,5 +256,81 @@ namespace MyFriendsBook
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btn_update_Click(object sender, EventArgs e)
+        {
+
+            string id = input_id.Text;
+
+            if (id == null || id.Length == 0)
+            {
+                MessageBox.Show("Please enter an ID");
+                return;
+            }
+
+            string fName = input_firstName.Text;
+            string lName = input_lastName.Text;
+            DateTime dob = input_dob.Value;
+            string birthPlace = input_birthPlace.Text;
+            string gender; // wordt aangegeven door een ifstatement
+            string adress = input_adress.Text;
+            string phone = input_phone.Text;
+            string email = input_email.Text;
+
+            int result = 0;
+
+            if (input_male.Checked)
+            {
+                gender = "Male";
+            }
+            else
+            {
+                gender = "Female";
+            }
+
+            try
+            {
+                int idInt = Convert.ToInt32(id);
+
+                connection.Open();
+                cmd = "UPDATE Friends SET FirstName = @fName, LastName = @lName, Birthday = @dob, BirthPlace = @birthPlace, Address = @adress, Telephone = @phone, Email = @email WHERE ID = @id";
+                command = new SqlCommand(cmd, connection);
+
+                command.Parameters.Add(new SqlParameter("@fName", fName));
+                command.Parameters.Add(new SqlParameter("@lName", lName));
+                command.Parameters.Add(new SqlParameter("@dob", dob));
+                command.Parameters.Add(new SqlParameter("@birthPlace", birthPlace));
+                command.Parameters.Add(new SqlParameter("@Gender", gender));
+                command.Parameters.Add(new SqlParameter("@adress", adress));
+                command.Parameters.Add(new SqlParameter("@phone", phone));
+                command.Parameters.Add(new SqlParameter("@email", email));
+
+                result = command.ExecuteNonQuery();
+
+                if (result > 0) { 
+                    MessageBox.Show("User updated");
+                    fName = "";
+                    lName = "";
+                    dob = DateTime.Now;
+                    birthPlace = "";
+                    input_male.Checked = false;
+                    input_female.Checked = false;
+                    adress = "";
+                    phone = "";
+                    email = "";
+                    connection.Close();
+                }
+                else
+                {
+                    MessageBox.Show("User not updated");
+                    connection.Close();
+                }
+
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
     }
 }
