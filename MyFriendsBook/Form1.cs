@@ -217,5 +217,44 @@ namespace MyFriendsBook
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            string id = input_id.Text;
+
+            if (id == null || id.Length == 0)
+            {
+                MessageBox.Show("Please enter an ID");
+                return;
+            }
+
+            try
+            {
+                int idInt = Convert.ToInt32(id);
+                connection.Open();
+                cmd = "DELETE FROM Friends WHERE ID = @id";
+
+                command = new SqlCommand(cmd, connection);
+                command.Parameters.Add(new SqlParameter("@id", idInt));
+
+                int deleted = command.ExecuteNonQuery();
+                if (deleted > 0)
+                {
+                    MessageBox.Show("User deleted");
+                    connection.Close();
+                    id = "";
+                }
+                else
+                {
+                    MessageBox.Show("User not deleted");
+                    connection.Close();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
